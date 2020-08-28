@@ -8,6 +8,10 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @RequestMapping("/user")
 public class UserController {
 
+    @RequestMapping("/main")
+    public String main() {
+        return "main";
+    }
 
 
 }
