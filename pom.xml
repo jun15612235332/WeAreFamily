@@ -35,13 +35,10 @@
                 </exclusion>
             </exclusions>
         </dependency>
-
-        <!--devtools热部署-->
+        <!--springboot自带的tomcat并没有携带tomcat-embed-jasper的依赖(对jsp的支持的依赖)-->
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-devtools</artifactId>
-            <optional>true</optional>
-            <scope>true</scope>
+            <groupId>org.apache.tomcat.embed</groupId>
+            <artifactId>tomcat-embed-jasper</artifactId>
         </dependency>
 
 

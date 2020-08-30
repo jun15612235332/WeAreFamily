@@ -5,10 +5,3 @@ spring:
     view:
       prefix: /
       suffix: .jsp
-  devtools:
-    restart:
-      enabled: true #设置开启热部署
-      additional-paths: /src/main/java #重启目录
-      exclude: WEB-INF/**
-  freemarker:
-    cache: false #页面不加载
